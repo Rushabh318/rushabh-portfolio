@@ -3,8 +3,8 @@ import { ArrowRight } from 'lucide-react';
 import { personalInfo } from '../data/mock';
 
 const Hero = () => {
-  const scrollToProjects = () => {
-    const element = document.getElementById('projects');
+  const scrollToExperience = () => {
+    const element = document.getElementById('experience');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
