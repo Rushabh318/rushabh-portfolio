@@ -3,8 +3,8 @@ import "./App.css";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import FeaturedProjects from "./components/FeaturedProjects";
 import Experience from "./components/Experience";
+import FeaturedProjects from "./components/FeaturedProjects";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
@@ -16,8 +16,8 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <FeaturedProjects />
       <Experience />
+      <FeaturedProjects />
       <Skills />
       <Education />
       <Contact />
