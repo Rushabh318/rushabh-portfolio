@@ -7,20 +7,20 @@ const FeaturedProjects = () => {
   const [showAllProjects, setShowAllProjects] = useState(false);
 
   return (
-    <section id="projects" className="py-24 bg-zinc-950">
+    <section id="projects" className="py-16 bg-zinc-950">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {/* Section Header */}
-        <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+        <div className="mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Featured Projects
           </h2>
-          <p className="text-gray-400 text-lg max-w-3xl">
+          <p className="text-gray-400 text-base max-w-3xl">
             A selection of key projects demonstrating expertise in autonomous systems, computer vision, and robotics engineering.
           </p>
         </div>
 
         {/* Featured Projects Grid */}
-        <div className="space-y-8 mb-16">
+        <div className="space-y-6 mb-12">
           {featuredProjects.map((project) => (
             <div
               key={project.id}
