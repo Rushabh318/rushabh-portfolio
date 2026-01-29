@@ -42,7 +42,7 @@ const Hero = () => {
 
           {/* CTA Button */}
           <button
-            onClick={scrollToProjects}
+            onClick={scrollToExperience}
             className="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-sm font-semibold hover:bg-gray-200 transition-all duration-300 group"
           >
             View My Work
