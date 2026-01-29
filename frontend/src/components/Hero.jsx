@@ -15,8 +15,8 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1655393001768-d946c97d6fd1"
-          alt="Robotics Technology"
+          src="https://images.unsplash.com/photo-1760553120296-afe0e7692768?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxhdXRvbm9tb3VzJTIwbW9iaWxlJTIwcm9ib3R8ZW58MHx8fHwxNzY5NzIxNDgzfDA&ixlib=rb-4.1.0&q=85"
+          alt="Autonomous Mobile Robot"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black"></div>
