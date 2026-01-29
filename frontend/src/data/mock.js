@@ -130,13 +130,22 @@ export const experience = [
     role: "Founding Robotics Engineer",
     duration: "Nov 2023 - Dec 2025",
     type: "Full-time",
+    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/xqnog7jm_image.png",
+    imageAlt: "Autonomous mobile robot built at AICI",
+    technologies: ["ROS2", "SLAM", "Nav2", "YOLOv8", "PyTorch", "C++", "PCL", "NVIDIA Jetson", "AWS", "RTAB-Map"],
     highlights: [
-      "First technical hire - architected autonomous mobile robot system",
-      "Led transition from 2D to 3D perception with LiDAR integration",
-      "Co-inventor on European patent for robotics system integration",
-      "Hired and mentored 10 engineers across AI, perception, and embedded teams",
-      "Established engineering infrastructure (GitLab, Jira, Confluence)",
-      "Managed EU compliance with certification bodies (TÜV, DEKRA)"
+      "Architected and built autonomous mobile robot from TurtleBot3 to near-production system as first technical hire",
+      "Developed real-time computer-vision + LiDAR fusion algorithm for structural feature extraction and optimal measurement location determination",
+      "Achieved 2x inference speed improvement by migrating YOLOv8 models to ONNX/TensorRT pipelines",
+      "Achieved 3cm localization accuracy using YOLO detections fused with depth camera and LiDAR data",
+      "Led transition from 2D to 3D perception with Livox LiDAR integration and SLAM migration to RTAB-Map",
+      "Implemented autonomous exploration and mapping using ROS2, SLAM Toolbox, and Nav2 with custom modifications",
+      "Built high-performance robotics data pipelines using ROS2 logging (Rosbags) for multi-modal sensor data",
+      "Fine-tuned SONATA vision models on AWS (EC2, S3) as YOLOv8 replacement",
+      "Co-inventor on European patent for system-level integration of robots, drones, perception, and communication",
+      "Hired and mentored 10 engineers across AI, perception, embedded, and mechatronics teams",
+      "Established engineering infrastructure (GitLab workflows, Jira, Confluence)",
+      "Managed EU compliance with certification bodies (TÜV, DEKRA, Elements)"
     ]
   },
   {
@@ -146,11 +155,19 @@ export const experience = [
     role: "Research Assistant - Computer Vision & Autonomous Systems",
     duration: "Dec 2021 - Sep 2023",
     type: "Part-time",
+    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/hfkcquu9_image.png",
+    imageAlt: "RViz visualization showing SLAM and motion planning at RWTH",
+    technologies: ["TensorFlow", "U-Net", "ROS", "MoveIt", "C++", "PCL", "PyTorch", "CycleGAN", "Blender"],
     highlights: [
-      "Developed CV algorithms for Industry 4.0 robotic automation",
-      "Deployed semantic segmentation models achieving 0.85 IoU",
-      "Integrated deep learning into ROS-based motion planning",
-      "Master Thesis: Domain Adaptation using GANs (Grade: 1.0)"
+      "Developed computer vision algorithms for Industry 4.0 project automating slag removal in iron processing",
+      "Deployed semantic segmentation models (U-Net) on industrial robotic arm, achieving 0.85 IoU",
+      "Optimized models through hyperparameter tuning for up to 20% performance improvement",
+      "Integrated deep learning models into ROS-based data processing and implemented motion planning with MoveIt",
+      "Master Thesis: Domain Adaptation using GANs for Object Detection (Grade: 1.0 - Highest Possible)",
+      "Researched and implemented CycleGAN to bridge 'reality gap' between synthetic and real-world industrial environments",
+      "Built automated data generation pipeline in Blender using CAD models to create diverse synthetic datasets",
+      "Achieved 110% relative improvement in cross-domain object detection (0.49 mAP on real vs 0.23 mAP from synthetic)",
+      "Trained CycleGAN with ResNet-based generators and PatchGAN discriminators for unpaired image-to-image translation"
     ]
   },
   {
@@ -160,11 +177,13 @@ export const experience = [
     role: "Deep Learning Intern",
     duration: "May 2022 - Oct 2022",
     type: "Internship",
+    technologies: ["PyTorch", "CARLA", "Docker", "Kubernetes", "OpenShift", "EfficientDet"],
     highlights: [
-      "Camera perception algorithms for autonomous driving project",
-      "Unsupervised domain adaptation using PyTorch",
-      "Synthetic data generation pipeline in CARLA simulator",
-      "Model deployment on Kubernetes-based OpenShift platform"
+      "Worked on deep learning-based camera perception algorithms for autonomous driving in large-scale public-funded project",
+      "Implemented unsupervised domain adaptation approach using PyTorch to bridge gap between simulated and real-world driving data",
+      "Created synthetic data generation pipeline using CARLA simulator from scratch for object detection and depth estimation",
+      "Trained and deployed models using Docker on Kubernetes-based OpenShift cloud platform",
+      "Developed end-to-end pipeline from data generation to cloud deployment for autonomous vehicle perception"
     ]
   },
   {
@@ -175,10 +194,11 @@ export const experience = [
     duration: "Jul 2018 - Sep 2020",
     type: "Full-time",
     highlights: [
-      "Technical interface between commercial vehicle OEMs and internal teams",
-      "Secured new project valued at ₹10M per year",
-      "Managed full project lifecycle for suspension systems",
-      "Represented ZF at national auto expos"
+      "Acted as primary technical interface between commercial vehicle OEMs and ZF's internal teams",
+      "Translated customer requirements into technical solutions and commercial proposals",
+      "Orchestrated full project lifecycle for suspension systems, from RFQs to business finalization",
+      "Secured new project for bus platform valued at ₹10M per year",
+      "Represented ZF at national auto expos and customer sites, demonstrating technical capabilities"
     ]
   }
 ];
