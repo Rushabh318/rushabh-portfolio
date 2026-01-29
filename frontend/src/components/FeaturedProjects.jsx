@@ -110,9 +110,9 @@ const FeaturedProjects = () => {
         </div>
 
         {/* All Projects Section */}
-        <div className="border-t border-gray-800 pt-16">
-          <div className="flex items-center justify-between mb-8">
-            <h3 className="text-3xl font-bold text-white">
+        <div className="border-t border-gray-800 pt-12">
+          <div className="flex items-center justify-between mb-6">
+            <h3 className="text-2xl font-bold text-white">
               Additional Projects
             </h3>
             <button
@@ -132,21 +132,21 @@ const FeaturedProjects = () => {
           </div>
 
           {showAllProjects && (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {allProjects.map((project) => (
                 <div
                   key={project.id}
-                  className="border border-gray-800 p-6 bg-black hover:border-gray-700 transition-colors"
+                  className="border border-gray-800 p-5 bg-black hover:border-gray-700 transition-colors"
                 >
-                  <div className="mb-3">
+                  <div className="mb-2">
                     <span className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
                       {project.category}
                     </span>
                   </div>
-                  <h4 className="text-xl font-bold text-white mb-3">
+                  <h4 className="text-lg font-bold text-white mb-2">
                     {project.title}
                   </h4>
-                  <p className="text-gray-400 mb-4 leading-relaxed">
+                  <p className="text-gray-400 text-sm mb-3 leading-relaxed">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
