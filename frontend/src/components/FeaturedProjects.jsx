@@ -91,15 +91,15 @@ const FeaturedProjects = () => {
 
               {/* Expanded Details */}
               {expandedProject === project.id && (
-                <div className="border-t border-gray-800 p-8 bg-zinc-950">
-                  <h4 className="text-lg font-semibold text-white mb-4">
+                <div className="border-t border-gray-800 p-6 bg-zinc-950">
+                  <h4 className="text-base font-semibold text-white mb-3">
                     Technical Achievements
                   </h4>
-                  <ul className="space-y-3">
+                  <ul className="space-y-2">
                     {project.keyAchievements.map((achievement, index) => (
                       <li key={index} className="flex items-start gap-3">
                         <span className="text-gray-600 mt-1">•</span>
-                        <span className="text-gray-300">{achievement}</span>
+                        <span className="text-gray-300 text-sm">{achievement}</span>
                       </li>
                     ))}
                   </ul>
