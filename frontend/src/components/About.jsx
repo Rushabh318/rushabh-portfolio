@@ -58,11 +58,6 @@ const About = () => {
               <div className="text-5xl font-bold text-white mb-2">1</div>
               <div className="text-gray-400 text-lg">European Patent Co-Inventor</div>
             </div>
-
-            <div className="border border-gray-800 p-8 hover:border-gray-700 transition-colors">
-              <div className="text-5xl font-bold text-white mb-2">110%</div>
-              <div className="text-gray-400 text-lg">Improvement in Object Detection Accuracy</div>
-            </div>
           </div>
         </div>
       </div>
