@@ -27,18 +27,18 @@ const FeaturedProjects = () => {
               className="border border-gray-800 bg-black hover:border-gray-700 transition-all duration-300"
             >
               {/* Project Header */}
-              <div className="p-8">
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
+              <div className="p-6">
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-4">
                   <div className="flex-1">
-                    <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
+                    <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
                       {project.title}
                     </h3>
-                    <div className="flex flex-wrap items-center gap-3 text-gray-400">
+                    <div className="flex flex-wrap items-center gap-3 text-gray-400 text-sm">
                       <span className="font-semibold">{project.company}</span>
                       <span className="text-gray-600">•</span>
                       <span>{project.role}</span>
                       <span className="text-gray-600">•</span>
-                      <span className="text-sm">{project.duration}</span>
+                      <span className="text-xs">{project.duration}</span>
                     </div>
                   </div>
                   <button
@@ -57,20 +57,20 @@ const FeaturedProjects = () => {
                   </button>
                 </div>
 
-                <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+                <p className="text-gray-300 text-base mb-4 leading-relaxed">
                   {project.description}
                 </p>
 
                 {/* Impact Highlights */}
-                <div className="mb-6">
-                  <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
+                <div className="mb-4">
+                  <h4 className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">
                     Key Impact
                   </h4>
-                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     {project.impact.map((item, index) => (
                       <li key={index} className="flex items-start gap-3">
                         <span className="text-gray-600 mt-1">→</span>
-                        <span className="text-gray-300">{item}</span>
+                        <span className="text-gray-300 text-sm">{item}</span>
                       </li>
                     ))}
                   </ul>
