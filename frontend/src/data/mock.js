@@ -155,8 +155,8 @@ export const experience = [
     role: "Research Assistant - Computer Vision & Autonomous Systems",
     duration: "Dec 2021 - Sep 2023",
     type: "Part-time",
-    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/hfkcquu9_image.png",
-    imageAlt: "RViz visualization showing SLAM and motion planning at RWTH",
+    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/q1hzusip_image.png",
+    imageAlt: "CycleGAN domain adaptation - synthetic to real images for Master Thesis",
     technologies: ["TensorFlow", "U-Net", "ROS", "MoveIt", "C++", "PCL", "PyTorch", "CycleGAN", "Blender"],
     highlights: [
       "Developed computer vision algorithms for Industry 4.0 project automating slag removal in iron processing",
@@ -177,6 +177,8 @@ export const experience = [
     role: "Deep Learning Intern",
     duration: "May 2022 - Oct 2022",
     type: "Internship",
+    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/9xilty50_image.png",
+    imageAlt: "Synthetic autonomous driving data generated using CARLA simulator",
     technologies: ["PyTorch", "CARLA", "Docker", "Kubernetes", "OpenShift", "EfficientDet"],
     highlights: [
       "Worked on deep learning-based camera perception algorithms for autonomous driving in large-scale public-funded project",
