@@ -155,23 +155,38 @@ export const experience = [
     role: "Research Assistant - Computer Vision & Autonomous Systems",
     duration: "Dec 2021 - Sep 2023",
     type: "Part-time",
-    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/q1hzusip_image.png",
-    imageAlt: "CycleGAN domain adaptation - synthetic to real images for Master Thesis",
-    technologies: ["TensorFlow", "U-Net", "ROS", "MoveIt", "C++", "PCL", "PyTorch", "CycleGAN", "Blender"],
+    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/hfkcquu9_image.png",
+    imageAlt: "RViz visualization showing SLAM and motion planning at RWTH",
+    technologies: ["TensorFlow", "U-Net", "ROS", "MoveIt", "C++", "PCL"],
     highlights: [
       "Developed computer vision algorithms for Industry 4.0 project automating slag removal in iron processing",
       "Deployed semantic segmentation models (U-Net) on industrial robotic arm, achieving 0.85 IoU",
       "Optimized models through hyperparameter tuning for up to 20% performance improvement",
       "Integrated deep learning models into ROS-based data processing and implemented motion planning with MoveIt",
-      "Master Thesis: Domain Adaptation using GANs for Object Detection (Grade: 1.0 - Highest Possible)",
-      "Researched and implemented CycleGAN to bridge 'reality gap' between synthetic and real-world industrial environments",
-      "Built automated data generation pipeline in Blender using CAD models to create diverse synthetic datasets",
-      "Achieved 110% relative improvement in cross-domain object detection (0.49 mAP on real vs 0.23 mAP from synthetic)",
-      "Trained CycleGAN with ResNet-based generators and PatchGAN discriminators for unpaired image-to-image translation"
+      "Collected training data in rosbags during field visits to iron processing facilities"
     ]
   },
   {
     id: 3,
+    company: "RWTH Aachen University",
+    location: "Aachen, Germany",
+    role: "Master Thesis",
+    duration: "Feb 2023 - Aug 2023",
+    type: "Research",
+    image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/q1hzusip_image.png",
+    imageAlt: "CycleGAN domain adaptation - synthetic to real images for Master Thesis",
+    technologies: ["PyTorch", "CycleGAN", "Blender", "GANs", "Computer Vision"],
+    highlights: [
+      "Domain Adaptation of Synthetic Images using GANs for Object Detection of Assembly Parts (Grade: 1.0 - Highest Possible)",
+      "Researched and implemented CycleGAN to bridge 'reality gap' between synthetic and real-world industrial environments",
+      "Built automated data generation pipeline in Blender using CAD models to create diverse synthetic datasets",
+      "Achieved 110% relative improvement in cross-domain object detection (0.49 mAP on real vs 0.23 mAP from synthetic)",
+      "Trained CycleGAN with ResNet-based generators and PatchGAN discriminators for unpaired image-to-image translation",
+      "Evaluated results using Fréchet Inception Distance (FID) and mean Average Precision (mAP) metrics"
+    ]
+  },
+  {
+    id: 4,
     company: "ZF Friedrichshafen AG",
     location: "Friedrichshafen, Germany",
     role: "Deep Learning Intern",
@@ -189,7 +204,7 @@ export const experience = [
     ]
   },
   {
-    id: 4,
+    id: 5,
     company: "ZF India Pvt. Ltd.",
     location: "Pune, India",
     role: "Technical Sales and Application Engineer",
