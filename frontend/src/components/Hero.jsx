@@ -12,66 +12,14 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
-      {/* Background - LiDAR Point Cloud Inspired */}
-      <div className="absolute inset-0 z-0 bg-black overflow-hidden">
-        {/* Gradient base */}
-        <div className="absolute inset-0 bg-gradient-to-br from-orange-950/20 via-black to-red-950/20"></div>
-        
-        {/* Concentric circles mimicking LiDAR scan patterns */}
-        <svg className="absolute inset-0 w-full h-full opacity-30" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <radialGradient id="lidarGrad1" cx="50%" cy="50%">
-              <stop offset="0%" stopColor="#ff6b35" stopOpacity="0.6" />
-              <stop offset="50%" stopColor="#f7931e" stopOpacity="0.3" />
-              <stop offset="100%" stopColor="#000000" stopOpacity="0" />
-            </radialGradient>
-            <radialGradient id="lidarGrad2" cx="50%" cy="50%">
-              <stop offset="0%" stopColor="#ff4e00" stopOpacity="0.4" />
-              <stop offset="70%" stopColor="#ff6b35" stopOpacity="0.2" />
-              <stop offset="100%" stopColor="#000000" stopOpacity="0" />
-            </radialGradient>
-          </defs>
-          
-          {/* Concentric circles */}
-          <circle cx="50%" cy="50%" r="20%" fill="none" stroke="url(#lidarGrad1)" strokeWidth="1" opacity="0.3" />
-          <circle cx="50%" cy="50%" r="30%" fill="none" stroke="url(#lidarGrad1)" strokeWidth="1" opacity="0.25" />
-          <circle cx="50%" cy="50%" r="40%" fill="none" stroke="url(#lidarGrad2)" strokeWidth="1" opacity="0.2" />
-          <circle cx="50%" cy="50%" r="50%" fill="none" stroke="url(#lidarGrad2)" strokeWidth="1" opacity="0.15" />
-          <circle cx="50%" cy="50%" r="60%" fill="none" stroke="#ff6b35" strokeWidth="0.5" opacity="0.1" />
-        </svg>
-        
-        {/* Scattered points mimicking LiDAR point cloud */}
-        <div className="absolute inset-0">
-          {[...Array(150)].map((_, i) => {
-            const x = Math.random() * 100;
-            const y = Math.random() * 100;
-            const size = Math.random() * 2 + 0.5;
-            const opacity = Math.random() * 0.4 + 0.1;
-            const delay = Math.random() * 3;
-            const color = i % 3 === 0 ? '#ff6b35' : i % 3 === 1 ? '#f7931e' : '#ff4e00';
-            
-            return (
-              <div
-                key={i}
-                className="absolute rounded-full animate-pulse"
-                style={{
-                  left: `${x}%`,
-                  top: `${y}%`,
-                  width: `${size}px`,
-                  height: `${size}px`,
-                  backgroundColor: color,
-                  opacity: opacity,
-                  animationDelay: `${delay}s`,
-                  animationDuration: '4s',
-                  boxShadow: `0 0 ${size * 2}px ${color}`
-                }}
-              />
-            );
-          })}
-        </div>
-        
-        {/* Dark overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/80 to-black"></div>
+      {/* Background Image - Autonomous Vehicle with Sensors */}
+      <div className="absolute inset-0 z-0">
+        <img
+          src="https://images.unsplash.com/photo-1764983253036-edd0f55af679"
+          alt="Autonomous Vehicle Perception System"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black"></div>
       </div>
 
       {/* Content */}
