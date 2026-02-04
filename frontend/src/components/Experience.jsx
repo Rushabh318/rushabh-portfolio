@@ -22,7 +22,7 @@ const Experience = () => {
             <span className="text-xs font-bold tracking-widest text-gray-500 uppercase">Professional Journey</span>
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-            Experience & Projects
+            Experience
           </h2>
           <p className="text-gray-400 text-xl max-w-3xl leading-relaxed">
             Building autonomous systems from research to production. Each role represents a step in advancing robotics, 
