@@ -19,7 +19,7 @@ const Hero = () => {
           alt="Autonomous Vehicle Perception System"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/85 to-black"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"></div>
       </div>
 
       {/* Content */}
