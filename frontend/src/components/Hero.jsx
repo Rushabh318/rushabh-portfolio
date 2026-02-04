@@ -14,21 +14,12 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <div className="w-full h-full bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
-          {/* Subtle grid pattern to simulate point cloud aesthetic */}
-          <div className="absolute inset-0 opacity-20" style={{
-            backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)',
-            backgroundSize: '30px 30px'
-          }}></div>
-          {/* Animated subtle dots to simulate LiDAR points */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-white rounded-full animate-pulse"></div>
-            <div className="absolute top-1/3 right-1/3 w-1 h-1 bg-white rounded-full animate-pulse" style={{animationDelay: '0.5s'}}></div>
-            <div className="absolute bottom-1/4 left-1/2 w-1.5 h-1.5 bg-white rounded-full animate-pulse" style={{animationDelay: '1s'}}></div>
-            <div className="absolute top-2/3 right-1/4 w-1 h-1 bg-white rounded-full animate-pulse" style={{animationDelay: '1.5s'}}></div>
-          </div>
-        </div>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/70 to-black"></div>
+        <img
+          src="https://images.unsplash.com/photo-1644088379091-d574269d422f"
+          alt="Point Cloud Visualization"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/85 via-black/75 to-black"></div>
       </div>
 
       {/* Content */}
