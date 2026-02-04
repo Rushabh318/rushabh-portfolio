@@ -110,7 +110,7 @@ const Experience = () => {
 
                     {/* Highlights - Refined spacing */}
                     <div className="mb-8">
-                      <h4 className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-5 flex items-center gap-2">
+                      <h4 className="text-xs font-bold tracking-widest text-gray-500 uppercase mb-4 flex items-center gap-2">
                         <span className="w-8 h-px bg-gray-700"></span>
                         Key Achievements
                       </h4>
