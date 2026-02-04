@@ -156,7 +156,7 @@ export const experience = [
     duration: "Dec 2021 - Sep 2023",
     type: "Part-time",
     image: "https://customer-assets.emergentagent.com/job_dev-portfolio-1145/artifacts/hfkcquu9_image.png",
-    imageAlt: "RViz visualization showing SLAM and motion planning at RWTH",
+    imageAlt: "RViz visualization of the perception and motion planning pipeline",
     technologies: ["TensorFlow", "U-Net", "ROS", "MoveIt", "C++", "PCL"],
     highlights: [
       "Developed computer vision algorithms for Industry 4.0 project automating slag removal in iron processing",
