@@ -49,7 +49,7 @@ const Experience = () => {
                 <div className="border border-gray-800 bg-gradient-to-br from-zinc-950 to-black hover:border-gray-700 transition-all duration-500 hover:shadow-2xl hover:shadow-gray-900/50">
                   <div className="p-10">
                     {/* Header */}
-                    <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-8">
+                    <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-6">
                       <div className="flex-1">
                         {/* Duration Badge */}
                         <div className="flex items-center gap-3 mb-4">
@@ -64,7 +64,7 @@ const Experience = () => {
                         <h3 className="text-3xl md:text-4xl font-bold text-white mb-3 leading-tight">
                           {exp.role}
                         </h3>
-                        <div className="flex items-center gap-3 text-gray-300 mb-6">
+                        <div className="flex items-center gap-3 text-gray-300">
                           <Briefcase size={20} className="text-gray-500" />
                           <span className="text-lg font-semibold">{exp.company}</span>
                           <span className="text-gray-600">•</span>
