@@ -9,10 +9,10 @@ const Contact = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Section Header */}
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Let's Build Something Together
+            Let's Connect
           </h2>
           <p className="text-gray-400 text-lg mb-12 leading-relaxed">
-            I'm always interested in discussing new opportunities, innovative projects, or potential collaborations in robotics, computer vision, and autonomous systems.
+            I'm currently seeking my next full-time role in Berlin, ideally in robotics, computer vision, or autonomous systems. If you think I'd be a good fit for your team, I'd love to hear from you.
           </p>
 
           {/* Contact Methods */}
